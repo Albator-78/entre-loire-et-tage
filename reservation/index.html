@@ -1,1 +1,84 @@
+<section id="reservation" class="reservation-section">
+  <div class="reservation-container">
+    
+    <!-- Colonne gauche : Réassurance & Offre -->
+    <div class="reservation-info">
+      <span class="badge">🎁 Offre de bienvenue</span>
+      <h2>Réservez votre cours d'essai gratuit de 30 min</h2>
+      <p class="subtitle">Testez la méthode, faites le point sur vos objectifs et validez votre configuration audio sans aucun engagement.</p>
+      
+      <ul class="benefit-list">
+        <li>
+          <span class="icon">✨</span>
+          <div>
+            <strong>100 % Gratuit & Sans engagement</strong>
+            <p>Une séance pour évaluer votre niveau et vos envies.</p>
+          </div>
+        </li>
+        <li>
+          <span class="icon">🎧</span>
+          <div>
+            <strong>Test de configuration audio</strong>
+            <p>On valide ensemble vos réglages (webcam, casque, carte son).</p>
+          </div>
+        </li>
+        <li>
+          <span class="icon">🎯</span>
+          <div>
+            <strong>Programme sur-mesure</strong>
+            <p>Définition d'un parcours adapté (Classique, Bossa, Blues, Rock...).</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Colonne droite : Formulaire de réservation -->
+    <div class="reservation-card">
+      <h3>Prendre rendez-vous</h3>
+      
+      <form action="mailto:contact@entre-loire-et-tage.fr" method="post" enctype="text/plain" class="booking-form">
+        <div class="form-group">
+          <label for="nom">Nom & Prénom</label>
+          <input type="text" id="nom" name="nom" placeholder="Ex: Jean Dupont" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Adresse e-mail</label>
+          <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="formule">Format souhaité</label>
+          <select id="formule" name="formule" required>
+            <option value="distance">💻 En ligne (Distance)</option>
+            <option value="domicile">🏡 À domicile (Secteur Val de Loire)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="style">Style / Guitare</label>
+          <select id="style" name="style">
+            <option value="acoustique">Guitare Acoustique / Classique</option>
+            <option value="electrique">Guitare Électrique</option>
+            <option value="debutant">Débutant complet (Ne sait pas encore)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Vos disponibilités ou questions</label>
+          <textarea id="message" name="message" rows="3" placeholder="Ex: Disponible en soirée après 18h ou le samedi matin..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">
+          🎸 Demander mon cours offert
+        </button>
+      </form>
+      
+      <p class="direct-contact">
+        Vous préférez échanger directement ? <a href="mailto:contact@entre-loire-et-tage.fr">contact@entre-loire-et-tage.fr</a>
+      </p>
+    </div>
+
+  </div>
+</section>
 
