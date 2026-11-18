@@ -6,4 +6,12 @@
     display: block;
     margin: 20px auto;
 }
-
+body {
+    /* Remplacez 'votre-image.jpg' par le chemin ou l'URL de l'image */
+    background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('1794963844246.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Rend l'image fixe (non défilante) */
+    background-repeat: no-repeat;
+    color: #ffffff; /* Assure une bonne lisibilité du texte par défaut */
+}
