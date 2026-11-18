@@ -8,7 +8,7 @@
 }
 body {
     /* Remplacez 'votre-image.jpg' par le chemin ou l'URL de l'image */
-    background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('1794963844246.jpg');
+    background-image: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.85)), url('1794963844246.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Rend l'image fixe (non défilante) */
